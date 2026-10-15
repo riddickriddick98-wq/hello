@@ -1,0 +1,37 @@
+buildscript {
+    repositories {
+        maven { url = 'https://maven.minecraftforge.net' }
+        mavenCentral()
+    }
+    dependencies {
+        classpath group: 'net.minecraftforge.gradle', name: 'ForgeGradle', version: '[6.0,6.2)', changing: true
+    }
+}
+
+apply plugin: 'net.minecraftforge.gradle'
+apply plugin: 'java'
+
+group = 'com.koyarobbery'
+version = '1.0.0'
+archivesBaseName = 'koyarobbery-forge-1.20.1'
+
+java.toolchain.languageVersion = JavaLanguageVersion.of(17)
+
+minecraft {
+    mappings channel: 'official', version: '1.20.1'
+    runs {
+        client { workingDirectory project.file('run'); property 'forge.logging.console.level', 'debug' }
+        server { workingDirectory project.file('run'); property 'forge.logging.console.level', 'debug'; args '--nogui' }
+    }
+}
+
+repositories { mavenCentral() }
+
+dependencies {
+    minecraft 'net.minecraftforge:forge:1.20.1-47.3.0'
+}
+
+tasks.withType(JavaCompile).configureEach { options.encoding = 'UTF-8' }
+
+jar { manifest { attributes 'Implementation-Title': 'KoyaRobbery', 'Implementation-Version': project.version } }
+jar.finalizedBy('reobfJar')

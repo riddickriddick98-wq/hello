@@ -1,0 +1,101 @@
+{
+  "TABLE_OPENING_TOOL": "NOTHING",
+  "Table": {
+    "1": {
+      "Item": "PAPER",
+      "Name": "&aCash Bundle",
+      "Amount-Per-Table": 6,
+      "Item-Amount": 32
+    },
+    "2": {
+      "Item": "EMERALD",
+      "Name": "&2Emerald Credit",
+      "Amount-Per-Table": 4,
+      "Item-Amount": 16
+    },
+    "3": {
+      "Item": "GOLD_NUGGET",
+      "Name": "&6Gold Coin",
+      "Amount-Per-Table": 3,
+      "Item-Amount": 24
+    },
+    "4": {
+      "Item": "COPPER_INGOT",
+      "Name": "&cCopper Coin",
+      "Amount-Per-Table": 5,
+      "Item-Amount": 32
+    },
+    "5": {
+      "Item": "GOLD_INGOT",
+      "Name": "&6Money Bar",
+      "Amount-Per-Table": 2,
+      "Item-Amount": 4
+    }
+  },
+  "SAFE_OPENING_TOOL": "IRON_SHOVEL",
+  "Safe": {
+    "1": {
+      "Item": "GOLD_INGOT",
+      "Name": "&6Gold Bar",
+      "Amount-Per-Safe": 4,
+      "Item-Amount": 4
+    },
+    "2": {
+      "Item": "EMERALD_BLOCK",
+      "Name": "&aMoney Stack",
+      "Amount-Per-Safe": 2,
+      "Item-Amount": 1
+    },
+    "3": {
+      "Item": "DIAMOND",
+      "Name": "&bRaw Diamond",
+      "Amount-Per-Safe": 2,
+      "Item-Amount": 4
+    },
+    "4": {
+      "Item": "NETHERITE_SCRAP",
+      "Name": "&8Rare Alloy Piece",
+      "Amount-Per-Safe": 1,
+      "Item-Amount": 2
+    },
+    "5": {
+      "Item": "IRON_INGOT",
+      "Name": "&7Silver Bar",
+      "Amount-Per-Safe": 3,
+      "Item-Amount": 6
+    }
+  },
+  "JEWELRY_OPENING_TOOL": "NOTHING",
+  "Jewelry": {
+    "1": {
+      "Item": "GOLD_NUGGET",
+      "Name": "&6Golden Watch",
+      "Amount-Per-Table": 2,
+      "Item-Amount": 1
+    },
+    "2": {
+      "Item": "DIAMOND",
+      "Name": "&bDiamond Ring",
+      "Amount-Per-Table": 1,
+      "Item-Amount": 1
+    },
+    "3": {
+      "Item": "AMETHYST_SHARD",
+      "Name": "&dCrystal Necklace",
+      "Amount-Per-Table": 2,
+      "Item-Amount": 1
+    },
+    "4": {
+      "Item": "QUARTZ",
+      "Name": "&fPearl Bracelet",
+      "Amount-Per-Table": 2,
+      "Item-Amount": 1
+    },
+    "5": {
+      "Item": "IRON_NUGGET",
+      "Name": "&7Silver Earring",
+      "Amount-Per-Table": 3,
+      "Item-Amount": 1
+    }
+  }
+}

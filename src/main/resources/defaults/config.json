@@ -1,0 +1,70 @@
+{
+  "Robbery-Start-Sound": "custom.robbery",
+  "Places": {
+    "CentralBank": {
+      "Region-Id": "bank_region_name",
+      "Robbery-Time": 300,
+      "Robbery-Cooldown": 600,
+      "Check-Vault-Doors": true,
+      "Restore-Structures-On-End": true,
+      "Teleport-Robbers-On-End": {
+        "Enable": true,
+        "Teleport-Location": "world;150;65;-120;0;90"
+      },
+      "Robbery-Start-Command-List": {
+        "1": "broadcast &cBank Robbery Alert! &f%leader% has started robbing the Central Bank!"
+      },
+      "Robbery-End-Command-List": {
+        "1": "broadcast &aThe robbery led by %leader% has ended!"
+      }
+    },
+    "GunStore": {
+      "Region-Id": "gunShop_region_name",
+      "Robbery-Time": 180,
+      "Robbery-Cooldown": 400,
+      "Check-Vault-Doors": true,
+      "Restore-Structures-On-End": true,
+      "Teleport-Robbers-On-End": {
+        "Enable": true,
+        "Teleport-Location": "world;150;65;-120;0;90"
+      },
+      "Robbery-Start-Command-List": {
+        "1": "broadcast &6%leader% is robbing the Gun Store!"
+      },
+      "Robbery-End-Command-List": {
+        "1": "broadcast &a%leader% finished the Gun Store robbery."
+      }
+    }
+  },
+  "Vault-Drill": {
+    "Drill-Duration": 15,
+    "Material": "DIAMOND_PICKAXE",
+    "Name": "&b&lVault Drill",
+    "Glow": true,
+    "Custom-Model-Data": 1001,
+    "Consume-On-Use": true,
+    "Lore": [
+      "&7A high-tech drilling device capable of",
+      "&7breaching the most secure vault doors.",
+      "",
+      "&e➤ Right-click on a vault door to use",
+      "&c⚠ Single use only"
+    ]
+  },
+  "Blocks": {
+    "TABLE": "BLACK_GLAZED_TERRACOTTA",
+    "EMPTY_TABLE": "BROWN_GLAZED_TERRACOTTA",
+    "SAFE": "WHITE_GLAZED_TERRACOTTA",
+    "OPEN_SAFE": "LIGHT_GRAY_GLAZED_TERRACOTTA",
+    "EMPTY_SAFE": "GRAY_GLAZED_TERRACOTTA",
+    "JEWELRY_TABLE": "RED_GLAZED_TERRACOTTA",
+    "EMPTY_JEWELRY_TABLE": "ORANGE_GLAZED_TERRACOTTA",
+    "VAULT_DOOR": "IRON_DOOR",
+    "VAULT_DOOR_FILL": "IRON_BLOCK"
+  },
+  "Max-Crew-Size": 4,
+  "Loot-Time-Seconds": {
+    "TABLE": 3,
+    "JEWELRY_TABLE": 3
+  }
+}

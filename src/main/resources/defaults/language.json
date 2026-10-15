@@ -1,0 +1,64 @@
+{
+  "Messages": {
+    "Commands": {
+      "Default": [
+        "&8[&6KoyaRobbery&8] &6» Robbery Commands",
+        "&7/Robbery &6Start &7<Name> &8- &7Start Robbery",
+        "&7/Robbery &6Crew &8- &7Open the Robbery Crew Menu",
+        "&7/Robbery &6Invite &7<Player> &8- &7Invite a Player to the Robbery",
+        "&7/Robbery &6Accept &8- &7Accept the Robbery Invitation",
+        "&7/Robbery &6Disband &8- &7Disband the Robbery Crew"
+      ],
+      "Admin": [
+        "&7/Robbery &6Give <Item> <Player>&8- &7Give Robbery Items",
+        "&7/Robbery &6GetStick &8- &7Get the Structure Stick",
+        "&7/Robbery &6Structure &8- &7Get the Structure Blocks",
+        "&7/Robbery &6Reload &8- &7Reload the Plugin"
+      ]
+    },
+    "NOT_IN_ROBBERY_REGION": "&8[&6KoyaRobbery&8] &6&7To Start a Robbery, You Must Be Inside a &cRobbery Zone",
+    "HELP": "&8[&6KoyaRobbery&8] &6&7You Are Not a Member of Any &6Crew &8(&7/Robbery Help&8)",
+    "INVITE_COMMAND_USAGE": "&8[&6KoyaRobbery&8] &6&7Command Is Not Currect &8(&7/Robbery Help&8)",
+    "NEED_PERMISSION": "&8[&6KoyaRobbery&8] &6&7You Don't Have Permission",
+    "SELF_INVITE": "&8[&6KoyaRobbery&8] &6&7You Cannot Invite Yourself",
+    "PLUGIN_RELOADED": "&8[&6KoyaRobbery&8] &6&7Plugin Reloaded",
+    "PLAYER_NOT_FOUND": "&8[&6KoyaRobbery&8] &6&7Player with Name &d%target% &7Not Found",
+    "JOINED": "&8[&6KoyaRobbery&8] &6&d%target% &7Has Joined Your Crew",
+    "JOIN": "&8[&6KoyaRobbery&8] &6&7You Have Joined the Crew",
+    "LEAVE": "&8[&6KoyaRobbery&8] &6&d%target% &7Has &4Left &7the Crew",
+    "KICK": "&8[&6KoyaRobbery&8] &6&d%target% &7Has Been &cKicked &7from the Crew",
+    "DISBAND": "&8[&6KoyaRobbery&8] &6&7Your &dCrew &7Has Been &4Disbanded",
+    "CREW_IS_FULL": "&8[&6KoyaRobbery&8] &6&7The Crew Has No Available Space for &6Joining",
+    "TIME_IS_UP": "&8[&6KoyaRobbery&8] &6&7The Time to Accept Has &4Expired",
+    "NOT_LEADER": "&8[&6KoyaRobbery&8] &6&7You Are Not the &6Leader &7of the Crew",
+    "NOT_INVITED": "&8[&6KoyaRobbery&8] &6&7You Have Not Been Invited",
+    "GET_INVITE": "&8[&6KoyaRobbery&8] &6&6%leader% &7Has Invited You, You Have &430 Seconds &7to Accept &8(&7/Robbery Accept&8)",
+    "SEND_INVITE": "&8[&6KoyaRobbery&8] &6&7You Have Invited &d%target% &8(&7They Must Accept Within 30 Seconds&8)",
+    "ALREADY_IN_CREW": "&8[&6KoyaRobbery&8] &6&7The Player Is Already in a &6Crew",
+    "ALREADY_STARTED": "&8[&6KoyaRobbery&8] &6&7This Robbery Has Already &4Started",
+    "ALREADY_INVITED": "&8[&6KoyaRobbery&8] &6&7This Player Has Already Been Invited",
+    "PLACE_NOT_FOUND": "&8[&6KoyaRobbery&8] &6&7This Location Is Not Set for &4Robbery",
+    "COOLDOWN": "&8[&6KoyaRobbery&8] &6&7The robbery is on cooldown. Please wait &4%cooldown% &7before trying again.",
+    "MINIMUM_ONLINE_PLAYERS": "&8[&6KoyaRobbery&8] &6&7To Start a Robbery, You Need &6%amount% &7Police Online",
+    "CREW_SIZE_IS_SMALL": "&8[&6KoyaRobbery&8] &6&7To Start a Robbery, You Need &6%amount% &7Players",
+    "WRONG_STRUCTURE_LOCATION": "&8[&6KoyaRobbery&8] &6&7This Region Is Not Registered for Robbery &8(&7Add It In Config.yml&8)",
+    "STRUCTURE_PLACED": "&8[&6KoyaRobbery&8] &6&7Structure Has Been Placed",
+    "STRUCTURE_REMOVED": "&8[&6KoyaRobbery&8] &6&7Structure Has Been Removed",
+    "GETSTICK": "&8[&6KoyaRobbery&8] &6&7You Have Received the Structure Stick",
+    "INVITE_ON_ROBBERY": "&8[&6KoyaRobbery&8] &6&7You Cannot Invite Anyone During a Robbery",
+    "ROBBERY_ENDED": "&8[&6KoyaRobbery&8] &6&7The Robbery Has Ended",
+    "CREW_CREATED": "&8[&6KoyaRobbery&8] &6&7You Have Created a Robbery Crew",
+    "ACTION_BAR": {
+      "ROBBERY_FAILED": "&8(&4You have been removed from the robbery&8)",
+      "ROBBERY_COUNTDOWN": "&8(&4 %countdown%s remaining &8)",
+      "DEATH": "&8(&4You died&8)"
+    },
+    "INVALID_DOOR": "&8[&6KoyaRobbery&8] &6&cThis isn't a valid vault door!",
+    "NO_PERMISSION": "&8[&6KoyaRobbery&8] &6&cYou don't have permission to use the vault drill!",
+    "ALREADY_OPENED": "&8[&6KoyaRobbery&8] &6&cThis door is already opened!",
+    "ALREADY_DRILLING": "&8[&6KoyaRobbery&8] &6&cA Drill is already doing a job here!",
+    "ITEM_NOT_FOUND": "&8[&6KoyaRobbery&8] &cItem name is invalid!",
+    "ITEM_GIVEN": "&8[&6KoyaRobbery&8] &aItem given successfully!",
+    "OPEN_DOORS_FIRST": "&8[&6KoyaRobbery&8] &cYou must open all vault doors before looting the structure!"
+  }
+}
