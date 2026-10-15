@@ -1,0 +1,4 @@
+{
+  "robbery_start": { "sounds": [ { "name": "koyarobbery:custom/robbery", "stream": false } ]
+  }
+}

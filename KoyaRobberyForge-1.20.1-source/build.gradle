@@ -1,0 +1,30 @@
+plugins {
+    id 'eclipse'
+    id 'idea'
+    id 'maven-publish'
+    id 'net.minecraftforge.gradle' version '[6.0,6.2)'
+}
+group = 'com.koya.robbery'
+version = '1.0.0'
+base { archivesName = 'KoyaRobberyForge' }
+java.toolchain.languageVersion = JavaLanguageVersion.of(17)
+minecraft {
+    mappings channel: 'official', version: '1.20.1'
+    copyIdeResources = true
+    runs {
+        configureEach {
+            workingDirectory project.file('run')
+            property 'forge.logging.console.level', 'info'
+            mods { koyarobbery { source sourceSets.main } }
+        }
+        client {}
+        server { args '--nogui' }
+    }
+}
+repositories {}
+dependencies { minecraft 'net.minecraftforge:forge:1.20.1-47.2.0' }
+tasks.named('processResources', ProcessResources).configure {
+    var replaceProperties = [mod_id: 'koyarobbery', mod_name: 'Koya Robbery', mod_version: project.version]
+    inputs.properties replaceProperties
+    filesMatching(['META-INF/mods.toml', 'pack.mcmeta']) { expand replaceProperties }
+}
